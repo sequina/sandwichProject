@@ -6,11 +6,17 @@ var Sandwich = (function () {
 
 	},
 
+	var condiments = {
+		"mustard":".50"
+		"ketchup":".70"
+		"no condiments":"0.00"
+	},
+		
 	var meatOpts = {
-		"turkey":"2.00"
-		"chicken":"2.50"
-		"veggie":"3.00"
+		"chicken":"3.00"
+		"turkey":"4.00"
 	}
+	
 
 
 	};
@@ -20,7 +26,7 @@ var Sandwich = (function () {
 			return cheeseOpts;
 		},
 
-		getmeatOpts: function() {
+		getcondiments: function() {
 			return meatOpts;
 		}
 

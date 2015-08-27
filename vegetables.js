@@ -8,10 +8,7 @@ var Sandwich = (function(veggies) {
   }
 
   veggies.prototype.getVeg = function(type) {
-  	var veggiePick = type.split(" ");
-  	var newVeggie = [];
-  	for (var j = 0; j < veggiePick.legnth; j++)
-  	  newVeggie.push(vegOptions[veggiePick[j]])
+  	return vegOptions[type];
   }
   return veggies
 }(Sandwich))

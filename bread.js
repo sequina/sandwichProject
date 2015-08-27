@@ -8,10 +8,7 @@ var Sandwich = (function(bread) {
   }
 
   bread.prototype.getBread = function(type){
-    var breadMan = type.split();
-    var pickBread = [];
-    for (var t = 0; t < hungryMan.length; t++) {
-      pickBread.push(breadOption[breadMan[t]];
+   return breadOption[type]
     }
 
   }
